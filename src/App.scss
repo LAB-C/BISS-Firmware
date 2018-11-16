@@ -1,27 +1,71 @@
 
 .App {
   display: flex;
-  margin-top: 20px;
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   & > form{
-      margin: 3% 0 0 5%;
-      position: relative;
-      overflow: hidden;
-      display: inline-block;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #000;
+    width: 500px;
+    height: 700px;
+
+    & > button{
+      margin: 3%;
+      border: 1px solid #fff;
+      background-color: #f2f2f2;
+      padding: 5px 20px;
+      font-weight: 600;
+      font-size: 11pt;
+
+      &[type=submit]{
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+
+    & > input[type=file]{
+      margin: 3%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+    }
+
+    & > div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & > table{
+        width: 500px;
+        padding: 0 50px 0 50px;
+
+        & > thead{
+          width: 400px;
+          font-weight: 600;
+
+          & > td{
+            padding-bottom: 10px;
+          }
+        }
+      }
 
       & > button{
+        margin-bottom: 5%;
         border: 1px solid #fff;
         background-color: #f2f2f2;
         padding: 5px 20px;
         font-weight: 600;
         font-size: 11pt;
-      }
-
-      & > input[type=file]{
         position: absolute;
-        left: 0;
-        top: 0;
-        opacity: 0;
+        bottom: 0;
+      }
     }
   }
 }
