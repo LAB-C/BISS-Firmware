@@ -1,33 +1,26 @@
-
 .App {
-  display: flex;
-  margin-top: 7%;
   display: flex;
   justify-content: center;
   align-items: center;
 
   & > form{
+    margin-top: 7%;
+    margin-left: 10%;
     position: relative;
     overflow: hidden;
     display: inline-block;
     border: 1px solid #000;
     width: 500px;
-    height: 700px;
+    height: 500px;
 
     & > button{
-      margin: 3%;
+      margin: 3% 3% 3% 5%;
       border: 1px solid #fff;
       background-color: #f2f2f2;
       padding: 5px 20px;
       font-weight: 600;
       font-size: 11pt;
-
-      &[type=submit]{
-        position: absolute;
-        bottom: 0;
-      }
     }
-
 
     & > input[type=file]{
       margin: 3%;
@@ -42,6 +35,18 @@
       justify-content: center;
       align-items: center;
 
+      & > button{
+        position: absolute;
+        margin-bottom: 5%;
+        border: 1px solid #fff;
+        background-color: #f2f2f2;
+        padding: 5px 20px;
+        font-weight: 600;
+        font-size: 11pt;
+        bottom: 0;
+      }
+
+
       & > table{
         width: 500px;
         padding: 0 50px 0 50px;
@@ -55,17 +60,38 @@
           }
         }
       }
+    }
+  }
 
-      & > button{
-        margin-bottom: 5%;
-        border: 1px solid #fff;
-        background-color: #f2f2f2;
-        padding: 5px 20px;
-        font-weight: 600;
-        font-size: 11pt;
-        position: absolute;
-        bottom: 0;
+  & > div{
+    margin-top: 7%;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+
+    & > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & > p{
+
+      margin-top: 30px;
+      & > input[type=checkbox]{
+        margin-left: 50px;
+        margin-bottom: 10px;
+      }
+
+      & > label{
+        margin-left: 30px;
+        margin-bottom: 10px;
       }
     }
   }
+
+
 }
