@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9e78e06-feca-404c-b249-f3d3af94ae87" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" afterPath="$PROJECT_DIR$/src/App.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="App.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="243">
+              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -142,7 +141,7 @@
       <updated>1542374908962</updated>
       <workItem from="1542374910220" duration="148000" />
       <workItem from="1542375110937" duration="9016000" />
-      <workItem from="1542442162283" duration="93000" />
+      <workItem from="1542442162283" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="create-react-app">
       <created>1542375311854</created>
@@ -172,11 +171,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542388555417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="준호가 안된다길레 봤더니 button만 내려옥도 input은 밑에 있길레 같이 내림 : )">
+      <created>1542442298905</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542442298905</updated>
+    </task>
+    <task id="LOCAL-00006" summary="input[type=file] margin-top: 84px -&gt; 100px">
+      <created>1542442655354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542442655354</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9257000" />
+    <option name="totallyTimeSpent" value="9831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -212,7 +225,9 @@
     <MESSAGE value="classnames node-sass sass-loader 깔고 대충 버튼 만듦" />
     <MESSAGE value="대충 만든거 잘 만듬" />
     <MESSAGE value="준호가 디바이스 선택도 넣으라해서 넣음" />
-    <option name="LAST_COMMIT_MESSAGE" value="준호가 디바이스 선택도 넣으라해서 넣음" />
+    <MESSAGE value="준호가 안된다길레 봤더니 button만 내려옥도 input은 밑에 있길레 같이 내림 : )" />
+    <MESSAGE value="input[type=file] margin-top: 84px -&gt; 100px" />
+    <option name="LAST_COMMIT_MESSAGE" value="input[type=file] margin-top: 84px -&gt; 100px" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -257,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="243">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding />
         </state>
       </provider>
