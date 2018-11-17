@@ -11,7 +11,6 @@ class App extends Component {
 
     handleChange(selectorFiles) {
         console.log(selectorFiles);
-
     }
 
     render() {
